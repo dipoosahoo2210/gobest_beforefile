@@ -13,6 +13,8 @@ const errorController = require('./controllers/error');
 const User = require('./models/user');
 
 
+const  PORT = process.env.PORT || 3000;
+
 
 const app = express();
 const store = new MongoDBStore({
@@ -82,7 +84,7 @@ app.use((error, req, res, next) => {
     isAuthenticated: req.session.isLoggedIn
   });
 });
-const  PORT = process.env.PORT || 3000;
+
 
 mongoose
   .connect(keys.mongoURI)

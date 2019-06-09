@@ -1,16 +1,14 @@
 {
-  "name": "nodejs-complete-guide",
+  "name": "gobest",
   "version": "1.0.0",
-  "description": "Complete Node.js Guide",
+  "description": "a social  e-commerce platefornm",
   "main": "app.js",
   "engines": {
-    "node":"12.4.0",
-    "npm":"6.9.0"
+    "node": "12.4.0",
+    "npm": "6.9.0"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon app.js",
-    "start-server": "node app.js"
+    "start": "nodemon app.js"
   },
   "author": "dipoo sahoo",
   "license": "ISC",
@@ -36,6 +34,5 @@
     "nodemailer-sendgrid-transport": "^0.2.0",
     "pdfkit": "^0.8.3",
     "pug": "^2.0.3"
-
   }
 }
