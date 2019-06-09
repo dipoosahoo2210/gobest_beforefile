@@ -4,11 +4,11 @@
   "description": "a social  e-commerce platefornm",
   "main": "app.js",
   "engines": {
-    "node": "12.4.0",
+    "node": "v12.4.0",
     "npm": "6.9.0"
   },
   "scripts": {
-    "start": "nodemon app.js"
+    "start": "node app.js"
   },
   "author": "dipoo sahoo",
   "license": "ISC",
